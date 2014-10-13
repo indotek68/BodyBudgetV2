@@ -14,3 +14,34 @@
  *= require_self
 
  */
+
+#map-container {
+    height: 400px;
+}
+
+#location {
+    height: 700px;
+    color: #FFFFFF;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel img {
+  position: relative;
+  min-width: 100%;
+}

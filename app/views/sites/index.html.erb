@@ -1,347 +1,3 @@
-
-<style>
-.row {
-margin-left: 5px;
-margin-right: 55px;
-color: #FFFFFF;
-}
-
-#colordiv {
-    background-color: #001450;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bgcontainer {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.navbar-inverse {
-    background-color: #001450;
-}
-
-.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #669999;
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #001450;
-}
-
-.dropdown-menu {
-    background-color: #001450;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    background-color: #669999;
-}
-
-.navbar-inverse {
-    background-image: none;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    background-image: none;
-}
-
-.navbar-inverse {
-    border-color: transparent;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-brand:hover {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #FFFFFF;
-}
-
-.dropdown-menu > li > a {
-    color: #FFFFFF;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a .caret {
-    border-top-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-    border-top-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a .caret {
-    border-bottom-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-    border-bottom-color: #FFFFFF;
-}
-
-
-*{
-margin: 0;
-padding: 0;
-font-family: 'Helvetica Neue', arial, sans-serif;
-color: #FFFFFF;
-}
-
-.header {
-    background: #222;
-    z-index: 10;
-}
-
-.header .navbar-brand {
-    font-weight: 900;
-}
-
-.header .navbar {
-    margin: 0;
-    border: none;
-}
-
-.page-section {
-    width: 100%;
-    padding: 50px 0;
-    background-color: #001450;
-}
-
-.page-section h1 {
-    font-size: 4em;
-    margin: 50px 0;
-    background-color: #001450;
-}
-
-.page-section h1 span {
-    font-weight: 200;
-    background-color: #001450;
-}
-
-.page-section h2 {
-    font-size: 3em;
-    font-weight: 900;
-    color: #fff;
-    margin: 0 0 30px;
-    text-shadow: 2px 2px 2px #000;
-    background-color: #001450;
-}
-
-.page-section p {
-    font-size: 1.2em;
-    font-weight: 200;
-    margin: 0 25% 20px 0;
-    background-color: #001450;
-}
-
-.page-section p.lead {
-    font-size: 1.8em;
-    background-color: #001450;
-}
-
-.navbar {
-margin-bottom: 0px;
-}
-
-.page-section p.caption {
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #001450;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-circle {
-    border: orange solid 2px;
-    border-radius: 50% 50% 50% 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.btn {
-    font-weight: 200;
-}
-
-.btn-dark {
-    background: #444;
-    color: #fff;
-}
-
-    .btn-dark:hover {
-        background: #000;
-        color: #fff;
-    }
-
-.back-to-top {
-    display: inline-block;
-    clear: both;
-    background: #fff;
-    color: #FFFFFF;
-    padding: 0 10px 5px;
-    margin: 20px 0 0;
-    text-shadow: none;
-}
-
-.back-to-top:hover {
-    background: #FFFFFF;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-hr {
-    border-color: #ddd;
-    background-color: #001450;
-}
-
-.signup {
-    margin-top: 140px;
-}
-
-.customheader {
-    color: #428BCA;
-    margin-top: 20px;
-}
-
-.bigicon {
-    font-size: 47px;
-    color: #428BCA;
-}
-
-.hiddenStepInfo {
-    display: none;
-}
-
-.activeStepInfo {
-    display: block !important;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.step {
-    margin-top: 27px;
-}
-
-.progress {
-    position: relative;
-    height: 25px;
-}
-
-.progress > .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 800;
-    padding: 3px 30px 2px 10px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress > .progress-completed {
-    position: absolute;
-    right: 0px;
-    font-weight: 800;
-    padding: 3px 10px 2px;
-}
-
-.step {
-    text-align: center;
-}
-
-.step .col-md-2 {
-    background-color: #fff;
-    border: 1px solid #C0C0C0;
-    border-right: none;
-}
-
-.step .col-md-2:last-child {
-    border: 1px solid #C0C0C0;
-}
-
-.step .col-md-2:first-child {
-    border-radius: 5px 0 0 5px;
-}
-
-.step .col-md-2:last-child {
-    border-radius: 0 5px 5px 0;
-}
-
-.step .col-md-2:hover {
-    color: #F58723;
-    cursor: pointer;
-}
-
-.step .activestep {
-    color: #F58723;
-    height: 100px;
-    margin-top: -7px;
-    padding-top: 7px;
-    border-left: 6px solid #5CB85C !important;
-    border-right: 6px solid #5CB85C !important;
-    border-top: 3px solid #5CB85C !important;
-    border-bottom: 3px solid #5CB85C !important;
-    vertical-align: central;
-}
-
-.step .fa {
-    padding-top: 15px;
-    font-size: 40px;
-}
-
-#map-container {
-    height: 400px;
-}
-
-#location {
-    height: 700px;
-    color: #FFFFFF;
-}
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #7f96ae;
-  width: 100%;
-}
-
-</style>
-
 <div id="colordiv">
     <!--Carousel-->
   <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -356,7 +12,7 @@ hr {
 <!--       slides  -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://www.hd-wallpaper.us/walls/vegetable_fruits_healthy_foods-wide.jpg" alt="First slide">
+          <img style=""src="http://4.bp.blogspot.com/-yNZYAKL4Uio/Uuh7cYP-M-I/AAAAAAAAOeM/CR-FxBUJ1Bk/s1600/lavender+kumquat+shrub-2.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Get moving!!</h1>
@@ -366,7 +22,7 @@ hr {
         </div>
 
         <div class="item">
-          <img src="http://chankwakwa.files.wordpress.com/2014/02/07-beautiful-fruit-wallpapers.jpg" alt="Second slide">
+          <img src="http://4.bp.blogspot.com/-dQH9SQjF3ic/UyU90kdYhoI/AAAAAAAAPMA/oFNuhvNFKF4/s1600/asparagus+sushi+bowl+-+lede-1.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>We help you keep up with your calories intake</h1>
@@ -376,8 +32,8 @@ hr {
           </div>
         </div>
 
-        <div class="item">
-          <img src="http://amoreint.com/wp-content/uploads/2014/08/Fruits-Food-Raspberries-Fresh-New-Hd-Wallpaper.jpg" alt="Second slide">
+        <div class="item" style="">
+          <img src="http://4.bp.blogspot.com/-aATcdmJKmbM/UtYtLnCnc9I/AAAAAAAAOWk/bg6yipSEoCs/s1600/miso+soba+noodle+soup-16.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Need more motivation?</h1>
@@ -387,7 +43,6 @@ hr {
           </div>
         </div>
       </div>
-     <!--   <a class="left carousel-control" href="#carousel1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> -->
        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
@@ -456,7 +111,8 @@ hr {
 
         var mapOptions = {
             center: myLocation,
-            zoom: 17
+            zoom: 17,
+            scrollwheel: false
         };
 
         var marker = new google.maps.Marker({
@@ -471,6 +127,9 @@ hr {
     }
 
     google.maps.event.addDomListener(window, 'load', init_map);
+
+    // var listener1 = google.maps.event.addListener(marker, 'mouseover', aFunction);
+    // google.maps.event.removeListener(listener1);
     /* end google maps -----------------------------------------------------*/
 
 </script>
