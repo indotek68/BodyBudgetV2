@@ -90,7 +90,7 @@ var barData = {
 $('.time-now').append("<p>TIME: "+timeNow+"</p >");
 
 window.myDoughnut = new Chart(ctx).Doughnut(data, {
-  responsive : false,
+  responsive : true,
   animateRotate: true,
   animateScale: false,
   percentageInnerCutout: 80,
@@ -104,6 +104,8 @@ window.myDoughnut = new Chart(ctx).Doughnut(data, {
 });
 
 window.myBarChart = new Chart(ctz).Bar(barData, {
+    
+    responsive: true,
     //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
     scaleBeginAtZero : true,
 
@@ -220,5 +222,6 @@ function searchFoodId(id){
 		});
 	});
 
+    
 
 
