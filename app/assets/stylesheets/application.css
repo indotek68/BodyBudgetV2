@@ -26,11 +26,10 @@
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+	margin-top: 5.75em;
+	height: 500px;
+  	margin-bottom: 1.98em;
 }
-
-
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -55,9 +54,15 @@
     margin-bottom: 0px;
     border-radius: 0px;
     /*height: 4em;*/
-    background-color: ##fefefe;
+    background-color: #fefefe;
+    opacity: .95;
     border-bottom: solid 1px #bbb;
     padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .nav-fonts{
@@ -96,4 +101,37 @@
 	padding: .75em 2em .75em 2em;
 	margin-bottom: .5em;
 }
+.info-head{
+	padding: 1em 4em 1em 4em;
+}
 
+.info-row{
+	background-color: #eee;
+	height: auto;
+	padding: 1em 4em 1em 7em;
+}
+
+.info-row h1, .info-head h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 3.5em;
+	color: #7d7d84;
+}
+
+.info-row p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.steps{
+	padding-left: 1em;
+}
+
+.steps a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	padding: .5em 1.25em;
+}
