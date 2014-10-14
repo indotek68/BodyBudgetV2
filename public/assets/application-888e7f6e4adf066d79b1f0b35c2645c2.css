@@ -1,0 +1,355 @@
+/*// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+
+.green-band {
+    background-color: rgba(71, 191, 189, .5);
+    height: 8px;
+    width: 0 auto;
+    position: relative;
+}
+
+.red-band {
+    background-color: rgba(247, 70, 74, .75);
+    height: 30px;
+    width: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+
+.green-bg {
+    background-color: #46BFBD;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 5.75em;
+}
+
+.move-top{
+    top: 10px;
+}
+.six-caps{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 60px;
+}
+
+.wire-one-small {
+    font-family: 'Wire One', sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.wire-one {
+    font-family: 'Wire One', sans-serif;
+    font-size: 35px;
+}
+
+.wire-one-large p{
+    font-family: 'Wire One', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.bowl {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: 0px;
+}
+
+.header{
+	font-family:
+}
+
+.thumb-ht {
+	height: 425px;
+}
+
+.grey {
+	background-color: #ecf0f1;
+    z-index: 0;
+    position: relative;
+    height: 100%;
+    padding: 2em 1em 1em 1em;
+    border-radius: 20px;
+}
+
+.grey-box {
+    background-color: #ecf0f1; 
+    z-index: 0;
+    position: relative;
+    height: 400px;
+    padding: 2em 1em 1em 1em;
+    border-radius: 20px;
+}
+
+.grey-box p, .grey-box li{
+    padding-left: 1em;
+}
+
+.border-white {
+    border-style: solid;
+    border-color: white;
+}
+
+.border-green {
+    border-style: solid;
+    border-color: #46BFBD;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-top-negative {
+	margin-top: -1em;
+}
+
+.margin-top-small {
+    margin-top: -.5em;
+}
+
+.margin-bottom {
+	margin-bottom: 1em;
+}
+
+@media (min-width: 1600px){
+.pie-position{
+	  position: relative;
+      /*width: 100% !important;
+      height: 100% !important;*/
+	}
+};
+
+
+@media (max-width: 600px){
+.pie-position{
+      position: relative;
+    }
+}
+
+canvas {
+    width: 100% !important;
+    max-width: 300px;
+    height: auto !important;
+}
+
+.canvas-holder {
+	margin-top: 2em;
+    position: relative;
+    height: auto;
+}
+
+.margin-right{
+   margin-right: 1em;
+}
+
+.cal-caption {
+    font-family: 'Wire One', sans-serif;
+    color: black;
+    opacity: 20;
+    font-size: 75px;
+    font-weight: 600;
+    position: relative; 
+    top: -175px;
+    /*left: 12px;*/
+    height: 100%;
+    text-align: center;
+    line-height: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    width: 0 auto;
+    height: 100%;
+    z-index: -1;
+}
+
+.cal-title {
+    font-family: 'Wire One', sans-serif;
+    color: black;
+    opacity: 20;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    /*left: 12px;*/
+    top: -110px;
+    height: 100%;
+    text-align: center;
+    line-height: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    width: 0 auto;
+    z-index: -1;
+  }
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylsheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
+#map-container {
+	position: relative;
+    height: 100%;
+}
+
+.map{
+	height: 15em;
+}
+
+#location {
+	padding-top: 0px;
+    height: 20em;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer{
+	background-color: #ddd;
+	border-top: 1px solid #ccc;
+	height: 5em;
+	width: 100%;
+	padding: 2em;
+	font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+/* Carousel base class */
+.carousel {
+	margin-top: 5.75em;
+	height: 500px;
+  	margin-bottom: 1.98em;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel img {
+  position: relative;
+  min-width: 100%;
+}
+
+.carousel-border{
+	border-bottom: solid 2em #f05323;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    /*height: 4em;*/
+    background-color: #fefefe;
+    opacity: .95;
+    border-bottom: solid 1px #bbb;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-fonts{
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
+.brand-font{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: .25em;
+    color: #f75722;
+    text-decoration: none;  
+}
+
+.item h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.item p{
+	font-family: 'Poiret One', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2em;
+}
+
+.item a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 1.75em;
+	padding: .75em 2em .75em 2em;
+	margin-bottom: .5em;
+}
+.info-head{
+	padding: 1em 4em 1em 4em;
+}
+
+.info-row{
+	background-color: #eee;
+	height: auto;
+	padding: 1em 4em 1em 7em;
+}
+
+.info-row h1, .info-head h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 3.5em;
+	color: #7d7d84;
+}
+
+.info-row p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.instructions{
+	padding-left: 1em;
+}
+
+.instructions a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	padding: .5em 1.25em;
+}
+
+.instructions img{
+	width: 100%;
+}
+
+.yummly{
+	margin: 0 auto;
+	padding-top: 1em;
+	width: 50%;
+}
