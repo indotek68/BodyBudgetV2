@@ -84,6 +84,10 @@
     border-radius: 20px;
 }
 
+.grey-box p, .grey-box li{
+    padding-left: 1em;
+}
+
 .border-white {
     border-style: solid;
     border-color: white;

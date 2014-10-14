@@ -16,12 +16,34 @@
  */
 
 #map-container {
-    height: 400px;
+	position: relative;
+    height: 100%;
+}
+
+.map{
+	height: 15em;
 }
 
 #location {
-    height: 700px;
-    color: #FFFFFF;
+	padding-top: 0px;
+    height: 20em;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer{
+	background-color: #ddd;
+	border-top: 1px solid #ccc;
+	height: 5em;
+	width: 100%;
+	padding: 2em;
+	font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 auto;
 }
 
 /* Carousel base class */
@@ -125,13 +147,23 @@
 	font-size: 2em;
 }
 
-.steps{
+.instructions{
 	padding-left: 1em;
 }
 
-.steps a{
+.instructions a{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 2em;
 	padding: .5em 1.25em;
+}
+
+.instructions img{
+	width: 100%;
+}
+
+.yummly{
+	margin: 0 auto;
+	padding-top: 1em;
+	width: 50%;
 }
